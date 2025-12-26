@@ -1,6 +1,6 @@
 # Stopwatch ni Reymark ⏱️
 
-A simple and responsive **web-based stopwatch** built using **HTML**, **CSS**, and **JavaScript**.  
+A simple and responsive Stopwatch built using HTML, CSS, and JavaScript.  
 This project allows users to start, stop, resume, and reset time with millisecond precision.
 
 ---
@@ -21,9 +21,9 @@ This project allows users to start, stop, resume, and reset time with millisecon
 
 ## 🛠️ Technologies Used
 
-- **HTML** – Structure of the stopwatch
-- **CSS** – Styling, layout, and animations
-- **JavaScript** – Time tracking and button logic
+- HTML – Structure of the stopwatch
+- CSS – Styling, layout, and animations
+- JavaScript – Time tracking and button logic
 
 ---
 
@@ -31,7 +31,7 @@ This project allows users to start, stop, resume, and reset time with millisecon
 
 stopwatch/
 │
-├── index.html # Main HTML file
+├── stopw.html # Main HTML file
 ├── stopw.css # Styling file
 ├── stopw.js # Stopwatch logic
 └── README.md # Project documentation
@@ -43,21 +43,21 @@ stopwatch/
 
 1. Download or clone the project files.
 2. Make sure all files are in the same folder:
-   - `index.html`
+   - `stopw.html`
    - `stopw.css`
    - `stopw.js`
-3. Open `index.html` in any modern web browser.
+3. Open `stopw.html` in any modern web browser.
 4. Use the buttons to control the stopwatch.
 
 ---
 
 ## 🧠 How It Works
 
-- Time updates every **10 milliseconds** using `setInterval()`.
+- Time updates every 10 milliseconds using `setInterval()`.
 - JavaScript tracks hours, minutes, seconds, and milliseconds.
 - Buttons are enabled/disabled based on stopwatch state:
-  - **Start** is disabled when running
-  - **Resume** is enabled only after stopping
+  - Start is disabled when running
+  - Resume is enabled only after stopping
 - Display updates in the format:  
   `HH:MM:SS.MS`
 
